@@ -7,25 +7,13 @@ body {
 }
 
 body {
-  background-color: #2d2b2b;
+  background-color: white;
   background-image: url("background.JPG");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #ffffff;
   background-size: auto 1500px;
-}
-
-#iryfl {
-  text-align: center;
-}
-
-#ilpae {
-  text-align: center;
-}
-
-#imzzy {
-  text-align: center;
 }
 
 #izkai {
@@ -36,7 +24,8 @@ body {
 }
 
 .panel {
-  width: 75%;
+  width: 96%;
+  min-width: 300px;
   max-width: 700px;
   border-radius: 10px;
   padding-top: 30px;
@@ -103,21 +92,6 @@ body {
   font-weight: 700;
 }
 
-.row {
-  display: table;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  width: 100%;
-}
-
-.cell {
-  width: 8%;
-  display: table-cell;
-  height: 75px;
-}
-
 .c3690 {
   caret-color: rgb(0, 0, 0);
   color: rgb(0, 0, 0);
@@ -136,11 +110,6 @@ body {
   -webkit-text-stroke-width: 0px;
   text-decoration: none;
   text-align: center;
-}
-
-.pic3 {
-  width: 100%;
-  height: auto;
 }
 
 .c8475 {
@@ -177,8 +146,9 @@ body {
 }
 
 .app_panel {
-  width: 75%;
-  max-width: 500px;
+  width: 96%;
+  min-width: 300px;
+  max-width: 700px;
   border-radius: 10px;
   padding-top: 30px;
   padding-right: 20px;
@@ -225,4 +195,15 @@ body {
   font-family: furtura, system-ui;
   font-variant-caps: normal;
   font-weight: 800;
+}
+
+.screenshot {
+  padding: 1px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.image-alignment {
+  text-align: center;
 }
